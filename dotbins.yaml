@@ -8,6 +8,9 @@ platforms:
         - arm64
 
 tools:
+    git-lfs:
+        repo: git-lfs/git-lfs
+
     ripgrep:
         repo: BurntSushi/ripgrep
         binary_name: rg
@@ -44,7 +47,6 @@ tools:
     # eza: eza-community/eza          # Modern replacement for ls
     # fd: sharkdp/fd                  # Simple, fast alternative to find
     # fzf: junegunn/fzf               # Command-line fuzzy finder
-    # git-lfs: git-lfs/git-lfs        # Git extension for versioning large files
     # glow: charmbracelet/glow        # Markdown renderer for the terminal
     # gping: orf/gping                # Ping with a graph
     # grex: pemistahl/grex            # Command-line tool for generating regular expressions from user-provided examples

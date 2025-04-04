@@ -24,6 +24,21 @@
     "updated_at": "2025-04-04T00:45:44.415000",
     "sha256": "d8230bb1a38817b7b7dc13100f9ef951fdc216e60df04e6c4015ee6acea54aeb"
   },
+  "git-lfs/linux/amd64": {
+    "version": "3.6.1",
+    "updated_at": "2025-04-04T09:45:37.802777",
+    "sha256": "2138d2e405a12f1a088272e06790b76699b79cb90d0317b77aafaf35de908d76"
+  },
+  "git-lfs/linux/arm64": {
+    "version": "3.6.1",
+    "updated_at": "2025-04-04T09:45:37.903736",
+    "sha256": "1c2720ff53528fbe769633d448d830aa7b682141e3c4f6a9f26b9cf3b2548d0a"
+  },
+  "git-lfs/macos/arm64": {
+    "version": "3.6.1",
+    "updated_at": "2025-04-04T09:45:37.987188",
+    "sha256": "83b4ea3b0c72ba19e3bc46e47e92476f4505cc96693333b9fa0a314dddacc4ba"
+  },
   "neovim/linux/amd64": {
     "version": "0.11.0",
     "updated_at": "2025-04-04T01:05:52.032561",

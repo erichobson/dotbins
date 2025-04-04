@@ -34,15 +34,17 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 | Tool | Repository | Version | Updated | Platforms & Architectures |
 | :--- | :--------- | :------ | :------ | :------------------------ |
 | [fzf](https://github.com/junegunn/fzf) | junegunn/fzf | 0.61.0 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
+| [git-lfs](https://github.com/git-lfs/git-lfs) | git-lfs/git-lfs | 3.6.1 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | BurntSushi/ripgrep | 14.1.1 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
 | [zoxide](https://github.com/ajeetdsouza/zoxide) | ajeetdsouza/zoxide | 0.9.7 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
 
 ## 📊 Tool Statistics
 
-<div align='center'><h3>📦 9 Tools | 💾 29.91 MB Total Size</h3></div>
+<div align='center'><h3>📦 12 Tools | 💾 64.4 MB Total Size</h3></div>
 
 | Tool | Total Size | Avg Size per Architecture |
 | :--- | :-------- | :------------------------ |
+| git-lfs | 34.49 MB | 11.5 MB |
 | ripgrep | 15.46 MB | 5.15 MB |
 | fzf | 11.29 MB | 3.76 MB |
 | zoxide | 3.16 MB | 1.05 MB |
@@ -129,6 +131,9 @@ platforms:
         - arm64
 
 tools:
+    git-lfs:
+        repo: git-lfs/git-lfs
+
     ripgrep:
         repo: BurntSushi/ripgrep
         binary_name: rg
@@ -165,7 +170,6 @@ tools:
     # eza: eza-community/eza          # Modern replacement for ls
     # fd: sharkdp/fd                  # Simple, fast alternative to find
     # fzf: junegunn/fzf               # Command-line fuzzy finder
-    # git-lfs: git-lfs/git-lfs        # Git extension for versioning large files
     # glow: charmbracelet/glow        # Markdown renderer for the terminal
     # gping: orf/gping                # Ping with a graph
     # grex: pemistahl/grex            # Command-line tool for generating regular expressions from user-provided examples
