@@ -1,0 +1,2 @@
+linux/* filter=lfs diff=lfs merge=lfs -text
+macos/* filter=lfs diff=lfs merge=lfs -text
