@@ -8,12 +8,50 @@ platforms:
         - arm64
 
 tools:
-    git-lfs:
-        repo: git-lfs/git-lfs
+    zellij: zellij-org/zellij
+    yq: mikefarah/yq
+    # sk: skim-rs/skim
+    nu: nushell/nushell
 
-    ripgrep:
+    git-lfs: git-lfs/git-lfs
+    yazi: sxyazi/yazi
+
+    lazygit:
+        repo: jesseduffield/lazygit
+        shell_code:
+            zsh: |
+                alias lg='lazygit'
+
+    delta:
+        repo: dandavison/delta
+        shell_code:
+            zsh: |
+                alias diff='delta'
+
+    fd:
+        repo: sharkdp/fd
+        shell_code:
+            zsh: |
+                alias find='fd'
+
+    rip:
+        repo: MilesCranmer/rip2
+        shell_code:
+            zsh: |
+                alias rm='rip'
+
+    rg:
         repo: BurntSushi/ripgrep
-        binary_name: rg
+        shell_code:
+            zsh: |
+                alias grep='rg'
+
+    bat:
+        repo: sharkdp/bat
+        shell_code:
+            zsh: |
+                alias bat="bat --paging=never"
+                alias cat="bat --plain --paging=never"
 
     fzf:
         repo: junegunn/fzf
@@ -27,9 +65,13 @@ tools:
             zsh: |
                 eval "$(zoxide init zsh)"
 
+    uv:
+        repo: astral-sh/uv
+        binary_name: [uv, uvx]
+        path_in_archive: [uv-*/uv, uv-*/uvx]
+
     # atuin: atuinsh/atuin            # Shell history and recording tool
     # bandwhich: imsnif/bandwhich     # Terminal bandwidth utilization tool
-    # bat: sharkdp/bat                # Cat clone with syntax highlighting and Git integration
     # btm: ClementTsang/bottom        # Graphical system monitor
     # btop: aristocratos/btop         # Resource monitor and process viewer
     # caddy: caddyserver/caddy        # Web server with automatic HTTPS
@@ -37,7 +79,6 @@ tools:
     # croc: schollz/croc              # File transfer tool with end-to-end encryption
     # ctop: bcicen/ctop               # Container metrics and monitoring
     # curlie: rs/curlie               # Curl wrapper with httpie-like syntax
-    # delta: dandavison/delta         # Syntax-highlighting pager for git and diff output
     # difft: Wilfred/difftastic       # Structural diff tool that understands syntax
     # direnv: direnv/direnv           # Environment switcher for the shell
     # dog: ogham/dog                  # Command-line DNS client like dig
@@ -45,7 +86,6 @@ tools:
     # dust: bootandy/dust             # More intuitive version of du (disk usage)
     # eget: zyedidia/eget             # Go single file downloader (similar to Dotbins)
     # eza: eza-community/eza          # Modern replacement for ls
-    # fd: sharkdp/fd                  # Simple, fast alternative to find
     # fzf: junegunn/fzf               # Command-line fuzzy finder
     # glow: charmbracelet/glow        # Markdown renderer for the terminal
     # gping: orf/gping                # Ping with a graph
@@ -59,7 +99,6 @@ tools:
     # jq: jqlang/jq                   # Lightweight JSON processor
     # just: casey/just                # Command runner alternative to make
     # k9s: derailed/k9s               # Kubernetes CLI to manage clusters
-    # lazygit: jesseduffield/lazygit  # Simple terminal UI for git commands
     # lnav: tstack/lnav               # Log file navigator
     # lsd: lsd-rs/lsd                 # Next-gen ls command with icons and colors
     # mcfly: cantino/mcfly            # Fly through your shell history
@@ -71,11 +110,9 @@ tools:
     # pastel: sharkdp/pastel          # A command-line tool to generate, convert and manipulate colors
     # procs: dalance/procs            # Modern replacement for ps
     # rg: BurntSushi/ripgrep          # Fast grep alternative
-    # rip: MilesCranmer/rip2          # A safe and ergonomic alternative to rm
     # sd: chmln/sd                    # Find & replace CLI
     # sk: skim-rs/skim                # Fuzzy finder for the terminal in Rust (similar to fzf)
     # starship: starship/starship     # Minimal, fast, customizable prompt for any shell
-    # tldr: tealdeer-rs/tealdeer      # Fast tldr client in Rust
     # topgrade: topgrade-rs/topgrade  # Upgrade all your tools at once
     # tre: dduan/tre                  # Tree command with git awareness
     # xh: ducaale/xh                  # Friendly and fast tool for sending HTTP requests

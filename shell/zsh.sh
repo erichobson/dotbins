@@ -10,6 +10,37 @@ _arch=$(uname -m)
 export PATH="$HOME/.config/dotbins/$_os/$_arch/bin:$PATH"
 
 # Tool-specific configurations
+# Configuration for lazygit
+if command -v lazygit >/dev/null 2>&1; then
+    alias lg='lazygit'
+fi
+
+# Configuration for delta
+if command -v delta >/dev/null 2>&1; then
+    alias diff='delta'
+fi
+
+# Configuration for fd
+if command -v fd >/dev/null 2>&1; then
+    alias find='fd'
+fi
+
+# Configuration for rip
+if command -v rip >/dev/null 2>&1; then
+    alias rm='rip'
+fi
+
+# Configuration for rg
+if command -v rg >/dev/null 2>&1; then
+    alias grep='rg'
+fi
+
+# Configuration for bat
+if command -v bat >/dev/null 2>&1; then
+    alias bat="bat --paging=never"
+    alias cat="bat --plain --paging=never"
+fi
+
 # Configuration for fzf
 if command -v fzf >/dev/null 2>&1; then
     source <(fzf --zsh)
