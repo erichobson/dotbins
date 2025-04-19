@@ -1,6 +1,6 @@
 # 🛠️ dotbins Tool Collection
 
-[![dotbins](https://img.shields.io/badge/powered%20by-dotbins-blue.svg?style=flat-square)](https://github.com/basnijholt/dotbins) [![Version](https://img.shields.io/badge/version-1.1.1-green.svg?style=flat-square)](https://github.com/basnijholt/dotbins/releases)
+[![dotbins](https://img.shields.io/badge/powered%20by-dotbins-blue.svg?style=flat-square)](https://github.com/basnijholt/dotbins) [![Version](https://img.shields.io/badge/version-2.1.0-green.svg?style=flat-square)](https://github.com/basnijholt/dotbins/releases)
 
 This directory contains command-line tools automatically managed by [dotbins](https://github.com/basnijholt/dotbins).
 
@@ -33,41 +33,45 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 
 | Tool | Repository | Version | Updated | Platforms & Architectures |
 | :--- | :--------- | :------ | :------ | :------------------------ |
-| [bat](https://github.com/sharkdp/bat) | sharkdp/bat | 0.25.0 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [delta](https://github.com/dandavison/delta) | dandavison/delta | 0.18.2 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [fd](https://github.com/sharkdp/fd) | sharkdp/fd | 10.2.0 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [fzf](https://github.com/junegunn/fzf) | junegunn/fzf | 0.61.0 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [git-lfs](https://github.com/git-lfs/git-lfs) | git-lfs/git-lfs | 3.6.1 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [lazygit](https://github.com/jesseduffield/lazygit) | jesseduffield/lazygit | 0.48.0 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [nu](https://github.com/nushell/nushell) | nushell/nushell | 0.103.0 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [rg](https://github.com/BurntSushi/ripgrep) | BurntSushi/ripgrep | 14.1.1 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [rip](https://github.com/MilesCranmer/rip2) | MilesCranmer/rip2 | 0.9.3 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [uv](https://github.com/astral-sh/uv) | astral-sh/uv | 0.6.12 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [yazi](https://github.com/sxyazi/yazi) | sxyazi/yazi | 25.3.2 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [yq](https://github.com/mikefarah/yq) | mikefarah/yq | 4.45.1 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [zellij](https://github.com/zellij-org/zellij) | zellij-org/zellij | 0.42.1 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [zoxide](https://github.com/ajeetdsouza/zoxide) | ajeetdsouza/zoxide | 0.9.7 | Apr 04, 2025 | linux (amd64, arm64) • macos (arm64) |
+| [bat](https://github.com/sharkdp/bat) | sharkdp/bat | 0.25.0 | Apr 17, 2025 | macos (arm64) |
+| [delta](https://github.com/dandavison/delta) | dandavison/delta | 0.18.2 | Apr 12, 2025 | macos (arm64) |
+| [fd](https://github.com/sharkdp/fd) | sharkdp/fd | 10.2.0 | Apr 17, 2025 | macos (arm64) |
+| [fzf](https://github.com/junegunn/fzf) | junegunn/fzf | 0.61.1 | Apr 17, 2025 | macos (arm64) |
+| [git-lfs](https://github.com/git-lfs/git-lfs) | git-lfs/git-lfs | 3.6.1 | Apr 17, 2025 | macos (arm64) |
+| [glow](https://github.com/charmbracelet/glow) | charmbracelet/glow | 2.1.0 | Apr 17, 2025 | macos (arm64) |
+| [jq](https://github.com/jqlang/jq) | jqlang/jq | jq-1.7.1 | Apr 13, 2025 | macos (arm64) |
+| [lazygit](https://github.com/jesseduffield/lazygit) | jesseduffield/lazygit | 0.49.0 | Apr 17, 2025 | macos (arm64) |
+| [nu](https://github.com/nushell/nushell) | nushell/nushell | 0.103.0 | Apr 12, 2025 | macos (arm64) |
+| [rg](https://github.com/BurntSushi/ripgrep) | BurntSushi/ripgrep | 14.1.1 | Apr 12, 2025 | macos (arm64) |
+| [rip](https://github.com/MilesCranmer/rip2) | MilesCranmer/rip2 | 0.9.3 | Apr 17, 2025 | macos (arm64) |
+| [uv](https://github.com/astral-sh/uv) | astral-sh/uv | 0.6.14 | Apr 12, 2025 | macos (arm64) |
+| [xcbeautify](https://github.com/cpisciotta/xcbeautify) | cpisciotta/xcbeautify | 2.28.0 | Apr 13, 2025 | macos (arm64) |
+| [yazi](https://github.com/sxyazi/yazi) | sxyazi/yazi | 25.4.8 | Apr 17, 2025 | macos (arm64) |
+| [yq](https://github.com/mikefarah/yq) | mikefarah/yq | 4.45.1 | Apr 17, 2025 | macos (arm64) |
+| [zoxide](https://github.com/ajeetdsouza/zoxide) | ajeetdsouza/zoxide | 0.9.7 | Apr 17, 2025 | macos (arm64) |
 
 ## 📊 Tool Statistics
 
-<div align='center'><h3>📦 42 Tools | 💾 560.8 MB Total Size</h3></div>
+<div align='center'><h3>📦 16 Tools | 💾 166.16 MB Total Size</h3></div>
 
 | Tool | Total Size | Avg Size per Architecture |
 | :--- | :-------- | :------------------------ |
-| nu | 125.49 MB | 41.83 MB |
-| uv | 102.7 MB | 34.23 MB |
-| zellij | 98.24 MB | 32.75 MB |
-| lazygit | 54.16 MB | 18.05 MB |
-| yazi | 37.4 MB | 12.47 MB |
-| git-lfs | 34.49 MB | 11.5 MB |
-| yq | 29.15 MB | 9.72 MB |
-| delta | 18.64 MB | 6.21 MB |
-| bat | 16.22 MB | 5.41 MB |
-| rg | 15.46 MB | 5.15 MB |
-| fzf | 11.29 MB | 3.76 MB |
-| fd | 9.6 MB | 3.2 MB |
-| rip | 4.81 MB | 1.6 MB |
-| zoxide | 3.16 MB | 1.05 MB |
+| nu | 37.21 MB | 37.21 MB |
+| uv | 32.22 MB | 32.22 MB |
+| lazygit | 20.01 MB | 20.01 MB |
+| glow | 16.13 MB | 16.13 MB |
+| yazi | 11.86 MB | 11.86 MB |
+| git-lfs | 11.58 MB | 11.58 MB |
+| yq | 9.74 MB | 9.74 MB |
+| delta | 5.76 MB | 5.76 MB |
+| bat | 5.03 MB | 5.03 MB |
+| rg | 4.17 MB | 4.17 MB |
+| fzf | 3.97 MB | 3.97 MB |
+| xcbeautify | 2.93 MB | 2.93 MB |
+| fd | 2.58 MB | 2.58 MB |
+| rip | 1.24 MB | 1.24 MB |
+| zoxide | 961.14 KB | 961.14 KB |
+| jq | 789.05 KB | 789.05 KB |
 
 ## 💻 Shell Integration
 
@@ -141,134 +145,82 @@ This configuration defines which tools to manage, their sources, and platform co
 **Current Configuration:**
 
 ```yaml
+# Base configuration
 tools_dir: ~/.config/dotbins
-
 platforms:
-    linux:
-        - amd64
-        - arm64
     macos:
         - arm64
 
+# Tools configuration
 tools:
-    zellij: zellij-org/zellij
-    yq: mikefarah/yq
-    # sk: skim-rs/skim
-    nu: nushell/nushell
-
-    git-lfs: git-lfs/git-lfs
-    yazi: sxyazi/yazi
-
-    lazygit:
-        repo: jesseduffield/lazygit
-        shell_code:
-            zsh: |
-                alias lg='lazygit'
-
-    delta:
-        repo: dandavison/delta
-        shell_code:
-            zsh: |
-                alias diff='delta'
-
-    fd:
-        repo: sharkdp/fd
-        shell_code:
-            zsh: |
-                alias find='fd'
-
-    rip:
-        repo: MilesCranmer/rip2
-        shell_code:
-            zsh: |
-                alias rm='rip'
-
-    rg:
-        repo: BurntSushi/ripgrep
-        shell_code:
-            zsh: |
-                alias grep='rg'
-
+    # --- File viewers and formatters ---
     bat:
         repo: sharkdp/bat
         shell_code:
             zsh: |
                 alias bat="bat --paging=never"
                 alias cat="bat --plain --paging=never"
-
+    delta:
+        repo: dandavison/delta
+        shell_code:
+            zsh: |
+                alias diff='delta'
+    glow: charmbracelet/glow
+    # --- Search and navigation tools ---
+    fd:
+        repo: sharkdp/fd
+        shell_code:
+            zsh: |
+                alias find='fd'
     fzf:
         repo: junegunn/fzf
         shell_code:
             zsh: |
                 source <(fzf --zsh)
 
+    rg:
+        repo: BurntSushi/ripgrep
+        shell_code:
+            zsh: |
+                alias grep='rg'
     zoxide:
         repo: ajeetdsouza/zoxide
         shell_code:
             zsh: |
                 eval "$(zoxide init zsh)"
+    yazi: sxyazi/yazi
+    # --- Git tools ---
+    git-lfs: git-lfs/git-lfs
+    lazygit:
+        repo: jesseduffield/lazygit
+        shell_code:
+            zsh: |
+                alias lg='lazygit'
 
+    # --- File management ---
+    rip:
+        repo: MilesCranmer/rip2
+        shell_code:
+            zsh: |
+                alias rm='rip'
+
+    # --- JSON/YAML processors ---
+    jq: jqlang/jq
+    yq: mikefarah/yq
+
+    # --- Shells and environments ---
+    nu: nushell/nushell
     uv:
         repo: astral-sh/uv
         binary_name: [uv, uvx]
         path_in_archive: [uv-*/uv, uv-*/uvx]
 
-    # atuin: atuinsh/atuin            # Shell history and recording tool
-    # bandwhich: imsnif/bandwhich     # Terminal bandwidth utilization tool
-    # btm: ClementTsang/bottom        # Graphical system monitor
-    # btop: aristocratos/btop         # Resource monitor and process viewer
-    # caddy: caddyserver/caddy        # Web server with automatic HTTPS
-    # choose: theryangeary/choose     # Cut alternative with a simpler syntax
-    # croc: schollz/croc              # File transfer tool with end-to-end encryption
-    # ctop: bcicen/ctop               # Container metrics and monitoring
-    # curlie: rs/curlie               # Curl wrapper with httpie-like syntax
-    # difft: Wilfred/difftastic       # Structural diff tool that understands syntax
-    # direnv: direnv/direnv           # Environment switcher for the shell
-    # dog: ogham/dog                  # Command-line DNS client like dig
-    # duf: muesli/duf                 # Disk usage analyzer with pretty output
-    # dust: bootandy/dust             # More intuitive version of du (disk usage)
-    # eget: zyedidia/eget             # Go single file downloader (similar to Dotbins)
-    # eza: eza-community/eza          # Modern replacement for ls
-    # fzf: junegunn/fzf               # Command-line fuzzy finder
-    # glow: charmbracelet/glow        # Markdown renderer for the terminal
-    # gping: orf/gping                # Ping with a graph
-    # grex: pemistahl/grex            # Command-line tool for generating regular expressions from user-provided examples
-    # gron: tomnomnom/gron            # Make JSON greppable
-    # hexyl: sharkdp/hexyl            # Command-line hex viewer
-    # hx: helix-editor/helix          # Modern text editor
-    # hyperfine: sharkdp/hyperfine    # Command-line benchmarking tool
-    # jc: kellyjonbrazil/jc           # JSON CLI output converter
-    # jless: PaulJuliusMartinez/jless # Command-line JSON viewer
-    # jq: jqlang/jq                   # Lightweight JSON processor
-    # just: casey/just                # Command runner alternative to make
-    # k9s: derailed/k9s               # Kubernetes CLI to manage clusters
-    # lnav: tstack/lnav               # Log file navigator
-    # lsd: lsd-rs/lsd                 # Next-gen ls command with icons and colors
-    # mcfly: cantino/mcfly            # Fly through your shell history
-    # micro: zyedidia/micro           # Modern and intuitive terminal-based text editor
-    # micromamba: mamba-org/micromamba-releases # Conda-like distribution
-    # navi: denisidoro/navi           # Interactive cheatsheet tool for the CLI
-    # neovim: neovim/neovim           # Modern text editor
-    # nu: nushell/nushell             # Modern shell for the GitHub era
-    # pastel: sharkdp/pastel          # A command-line tool to generate, convert and manipulate colors
-    # procs: dalance/procs            # Modern replacement for ps
-    # rg: BurntSushi/ripgrep          # Fast grep alternative
-    # sd: chmln/sd                    # Find & replace CLI
-    # sk: skim-rs/skim                # Fuzzy finder for the terminal in Rust (similar to fzf)
-    # starship: starship/starship     # Minimal, fast, customizable prompt for any shell
-    # topgrade: topgrade-rs/topgrade  # Upgrade all your tools at once
-    # tre: dduan/tre                  # Tree command with git awareness
-    # xh: ducaale/xh                  # Friendly and fast tool for sending HTTP requests
-    # xplr: sayanarijit/xplr          # Hackable, minimal, fast TUI file explorer
-    # yazi: sxyazi/yazi               # Terminal file manager with image preview
-    # yq: mikefarah/yq                # YAML/XML/TOML processor similar to jq
-    # zellij: zellij-org/zellij       # Terminal multiplexer
-    # zoxide: ajeetdsouza/zoxide      # Smarter cd command with learning
-    #
+    # --- Development tools ---
+    xcbeautify: cpisciotta/xcbeautify
 ```
 
 ## ℹ️ Additional Information
 
-* This README was automatically generated on Apr 04, 2025
+* This README was automatically generated on Apr 18, 2025
 * Current platform: **macos/arm64**
 * For more information on dotbins, visit https://github.com/basnijholt/dotbins

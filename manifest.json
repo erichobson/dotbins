@@ -1,0 +1,103 @@
+{
+  "version": 2,
+  "bat/macos/arm64": {
+    "tag": "v0.25.0",
+    "updated_at": "2025-04-17T21:57:55.038525",
+    "sha256": "b3ed5a7515545445881f1036f0cc1b708c2b86cbce01c1b4033f38e0cfcc7b3c",
+    "url": "https://github.com/sharkdp/bat/releases/download/v0.25.0/bat-v0.25.0-aarch64-apple-darwin.tar.gz"
+  },
+  "delta/macos/arm64": {
+    "tag": "0.18.2",
+    "updated_at": "2025-04-12T14:52:42.731596",
+    "sha256": "6ba38dce9f91ee1b9a24aa4aede1db7195258fe176c3f8276ae2d4457d8170a0"
+  },
+  "fd/macos/arm64": {
+    "tag": "v10.2.0",
+    "updated_at": "2025-04-17T21:57:55.056351",
+    "sha256": "ae6327ba8c9a487cd63edd8bddd97da0207887a66d61e067dfe80c1430c5ae36",
+    "url": "https://github.com/sharkdp/fd/releases/download/v10.2.0/fd-v10.2.0-aarch64-apple-darwin.tar.gz"
+  },
+  "fzf/macos/arm64": {
+    "tag": "v0.61.1",
+    "updated_at": "2025-04-17T21:57:55.073554",
+    "sha256": "addc2d9af3281b09661223ea87887c69599d4cf7b7bc9219d7320daadc8639a1",
+    "url": "https://github.com/junegunn/fzf/releases/download/v0.61.1/fzf-0.61.1-darwin_arm64.tar.gz"
+  },
+  "git-lfs/macos/arm64": {
+    "tag": "v3.6.1",
+    "updated_at": "2025-04-17T21:57:55.129125",
+    "sha256": "83b4ea3b0c72ba19e3bc46e47e92476f4505cc96693333b9fa0a314dddacc4ba",
+    "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-darwin-arm64-v3.6.1.zip"
+  },
+  "glow/macos/arm64": {
+    "tag": "v2.1.0",
+    "updated_at": "2025-04-17T21:57:55.178854",
+    "sha256": "0cc5fcb32fc2090134261a162ec336574f41c4693625253abe977436a498a937",
+    "url": "https://github.com/charmbracelet/glow/releases/download/v2.1.0/glow_2.1.0_Darwin_arm64.tar.gz"
+  },
+  "jq/macos/arm64": {
+    "tag": "jq-1.7.1",
+    "updated_at": "2025-04-13T07:45:07.334738",
+    "sha256": "0bbe619e663e0de2c550be2fe0d240d076799d6f8a652b70fa04aea8a8362e8a"
+  },
+  "lazygit/macos/arm64": {
+    "tag": "v0.49.0",
+    "updated_at": "2025-04-17T21:57:55.239009",
+    "sha256": "7fa7ecce79d31590d0a53efd15ede55962f1f4b5422dbfd7618a0a2ce4ae7e35",
+    "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.49.0/lazygit_0.49.0_Darwin_arm64.tar.gz"
+  },
+  "mcfly/macos/arm64": {
+    "tag": "0.9.3",
+    "updated_at": "2025-04-16T00:35:22.067860",
+    "sha256": "dba6685d8cb503e3f51f366e880ce5a66da08dc8b4f49e8f49f515f941391176"
+  },
+  "nu/macos/arm64": {
+    "tag": "0.103.0",
+    "updated_at": "2025-04-12T14:52:43.704151",
+    "sha256": "b0655aa88eee68523c7c227beeb644ad3b4605a8a8c7465dd99ce9889626e5e8"
+  },
+  "rg/macos/arm64": {
+    "tag": "14.1.1",
+    "updated_at": "2025-04-12T14:52:43.740105",
+    "sha256": "24ad76777745fbff131c8fbc466742b011f925bfa4fffa2ded6def23b5b937be"
+  },
+  "rip/macos/arm64": {
+    "tag": "v0.9.3",
+    "updated_at": "2025-04-17T21:57:55.245669",
+    "sha256": "5f76b749462997ce456dde5f2f3b6bbf9934f1872709cf0e0e529e860c07886c",
+    "url": "https://github.com/MilesCranmer/rip2/releases/download/v0.9.3/rip-macOS-Darwin-aarch64.tar.gz"
+  },
+  "uv/macos/arm64": {
+    "tag": "0.6.14",
+    "updated_at": "2025-04-12T14:52:43.928881",
+    "sha256": "4ea4731010fbd1bc8e790e07f199f55a5c7c2c732e9b77f85e302b0bee61b756"
+  },
+  "ventoy/macos/arm64": {
+    "tag": "1.1.05",
+    "updated_at": "2025-04-13T18:32:58.142621",
+    "sha256": "3379c99890359dcff55aab7f7b3286f87c988d1da2fd616e6a9e305fb0a1de9e"
+  },
+  "xcbeautify/macos/arm64": {
+    "tag": "2.28.0",
+    "updated_at": "2025-04-13T07:37:01.315910",
+    "sha256": "00d16a08b426e004e5d101631515ea1bbc0ab20209541cd4cacb569d3289c9e7"
+  },
+  "yazi/macos/arm64": {
+    "tag": "v25.4.8",
+    "updated_at": "2025-04-17T21:57:55.287452",
+    "sha256": "192c6729020c000600bc3505dcb9a8402ea7c2d1eb8ff4cfd13027bd07a8d550",
+    "url": "https://github.com/sxyazi/yazi/releases/download/v25.4.8/yazi-aarch64-apple-darwin.zip"
+  },
+  "yq/macos/arm64": {
+    "tag": "v4.45.1",
+    "updated_at": "2025-04-17T21:57:55.296926",
+    "sha256": "83edb55e254993f9043d01a1515205b54ffc2c7ce815a780573da64afaf2c71b",
+    "url": "https://github.com/mikefarah/yq/releases/download/v4.45.1/yq_darwin_arm64"
+  },
+  "zoxide/macos/arm64": {
+    "tag": "v0.9.7",
+    "updated_at": "2025-04-17T21:57:55.307856",
+    "sha256": "4ce19ad9ea0fdf92265ef73b1cb38c605fbccfda815157c1e99c0af99115c4e4",
+    "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.7/zoxide-0.9.7-aarch64-apple-darwin.tar.gz"
+  }
+}
